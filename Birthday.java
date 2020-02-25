@@ -51,6 +51,11 @@ public class Birthday {
 					answer = JOptionPane. showInputDialog(null, "This toy is not suitable for a child of this age would you like to cancel this toy request?");
 
 				}
+				
+				else {
+					
+					JOptionPane. showMessageDialog(null, "Good Choice!!!!!");
+				}
 
 			}	while(answer.equals("yes"));
 
